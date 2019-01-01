@@ -10,6 +10,11 @@ How to Do this
 4) run the docker (docker run -p 80:80 -p 1935:1935  --name nginx-rtmp nginx-rtmp)
 
 
+for FFmpeg
+
+run all above command except 4
+4) docker run -d -v /home/xion/Documents/streaming/live:/usr/local/nginx/conf/live -v /home/xion/Documents/streaming/apps:/usr/local/nginx/conf/apps -p 80:80 -p 1935:1935 --name nginx-rtmp nginx-rtmp
+
 Copyright 2019 Shouvik Ghosh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
