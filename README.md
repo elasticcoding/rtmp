@@ -3,6 +3,13 @@ This is a container for Nginx-Rtmp
 The RTMP module from 
 https://github.com/arut/nginx-rtmp-module
 
+How to Do this
+1) clone the repo
+2) install docker
+3) build the docker image from docker file ( docker build -t nginx-rtmp .)
+4) run the docker (docker run -p 80:80 -p 1935:1935  --name nginx-rtmp nginx-rtmp)
+
+
 Copyright 2019 Shouvik Ghosh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
