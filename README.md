@@ -12,7 +12,8 @@ How to Do this
 
 for FFmpeg
 
-run all above command except 4
+run all above command except (4)
+
 4) docker run -d -v /home/xion/Documents/streaming/live:/usr/local/nginx/conf/live -v /home/xion/Documents/streaming/apps:/usr/local/nginx/conf/apps -p 80:80 -p 1935:1935 --name nginx-rtmp nginx-rtmp
 
 Copyright 2019 Shouvik Ghosh
