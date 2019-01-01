@@ -1,6 +1,7 @@
 # rtmp
 This is a container for Nginx-Rtmp
-
+The RTMP module from 
+https://github.com/arut/nginx-rtmp-module
 
 Copyright 2019 Shouvik Ghosh
 
